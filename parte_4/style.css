@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(246, 243, 239);
+    color: burlywood;
+    font-family: 'Poppins';
+}
+
+h1{
+    text-align: center;
+    margin-block-end: 10px;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 10em;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    background: rgb(41, 41, 41);
+    box-shadow: 5px 5px 15px rgb(196 196 196);
+}
+
+h2{
+    align-self: center;
+}
+
+button{
+    font-size: large;
+    cursor: pointer;
+    margin: 10px 40px;
+    background-color: rgb(104, 49, 49);
+    color: burlywood;
+    border-radius: 10px;
+}
+
+#facil:hover{
+    background-color: rgb(12, 187, 12);
+}
+
+#media:hover{
+    background-color: rgb(223, 223, 33);
+}
+
+#dificil:hover{
+    background-color: rgb(224, 29, 3);
+}
+
+#kenji:hover{
+    background-image: url('fogo.png');
+    color: snow;
+}
+.tabuleiro{
+    margin:auto;
+    padding: 40px;
+    background-color: rgb(104, 49, 49);
+    border: 2px solid burlywood;
+    width: fit-content;
+    height: auto;
+    box-shadow: 10px 10px 30px rgb(196 196 196);
+    background-image: url('textura.png');
+}
+
+.quadro{
+    background-color: burlywood;
+    padding: 2px;
+    border: 2px double rgb(104, 49, 49) burlywood;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span:hover{
+    background:radial-gradient(blue, navy);
+}
+
+.preto{
+    background-color: rgb(104, 49, 49);
+}
+
+.nome-coluna{
+    background-color: rgb(41, 41, 41);
+    color: burlywood;
+    height: 21px;
+    text-align: center;
+}
+
+.numero-linha{
+    width: 21px;
+    background-color: rgb(41, 41, 41);
+    color: burlywood;
+}
+
+.numero{
+    width: 21px;
+    text-align: center;
+}
+
+.vazia{
+    width: 21px;
+    height: 21px;
+}
+
+img{
+    max-height: 60px;
+    width: auto;
+    cursor:pointer;
+}
+

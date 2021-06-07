@@ -1,0 +1,250 @@
+/* 
+___________________________________________
+GERAL
+___________________________________________
+*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Share';
+}
+
+body{
+    padding: 2.5em;
+    background-color:rgb(246, 243, 239);
+    height: 35em;
+}
+
+/* 
+___________________________________________
+CABEÇALHO
+___________________________________________
+*/
+header{
+    padding-bottom: 2em;
+    border-bottom: solid 1px black;
+    font-size: 80%;
+    transform: scale(1, 0.9);
+    position: absolute;
+    display: inline-flex;
+    right: 2.5rem;
+    left: 2.5rem;
+}
+
+.logo{
+    display: inline;
+    margin-right: 7em;
+    font-size: 80%;
+}
+
+#nome-marca{
+    display: inline;
+    padding:0.8em 1em;
+    background-color: black;
+    color:white;
+    letter-spacing: 7px;
+    font-family: 'Share';
+}
+
+#ultima-letra{
+    letter-spacing: 0;
+}
+
+i.fa.fa-trademark{
+    position:relative;
+    display:inline-flex;
+    font-size: 50%;
+    padding-left: 3px;
+    vertical-align: super;
+    top: -1.6em;
+    font-weight: bold;
+}
+
+nav{
+    width:max-content;
+    display: inline;
+}
+
+#menu-nav {
+    padding-left: 5%;
+    display: inline-flex;
+    list-style: none; 
+    width:max-content;
+    font-family: 'Share';
+    letter-spacing: 2px;
+    font-size: 80%;
+}
+
+li {
+    padding-right: 3em;
+    display: inline;
+}
+
+#home{
+    font-weight: bold;
+}
+
+i.fa.fa-search{
+    position: absolute;
+    right: 2.5;
+}
+/* 
+___________________________________________
+CORPO
+___________________________________________
+*/
+
+div.corpo{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    padding-left: 10.2%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    width: 100%;
+    height: fit-content;
+}
+
+div.topo{
+    padding-bottom: 1.2em;
+    border-bottom: solid 1px black;
+    width: 100%;
+    position: relative;
+}
+
+p.apartments{
+    float: left;
+    padding-right: 3em;
+    font-family: 'Fira Mono', monospace;
+    font-size: 70%;
+}
+
+#numero{
+    font-size: 200%;
+    display: block;
+    text-align: right;
+    font-family: 'Fira Mono', monospace;
+
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    width: 63%;
+    display: inline-block;
+    transform: translateY(-10px) scale(0.9, 1);
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+p.next{
+    font-family: 'Libre Baskerville';
+    font-size: 40%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 2em;
+    right: 0;
+}
+
+
+
+
+
+div.final{
+    display: flex;
+}
+
+div.esquerdo{
+    padding-top: 3em;
+    flex:4;
+    font-size: 70%;
+    border-right: solid 1px black;
+}
+
+h2{
+    font-size: 80%;
+    padding-bottom: 3px;
+    transform: scale(1, 0.9);
+}
+
+div.item{
+    padding-bottom: 1.6em;
+}
+
+#par3{
+    width: 9em;
+}
+/* 
+___________________________________________
+SEÇÃO COM FOTOS
+___________________________________________
+*/
+div.direito{   
+    flex:15; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+figure{
+    padding: 2em 0 0 2em;
+}
+
+img{
+    max-height: 60%;
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+
+#quarto{
+    box-shadow: 10px 10px 30px rgb(196, 196, 196);
+}
+
+/* 
+___________________________________________
+FAIXAS LATERAIS
+___________________________________________
+*/
+.lateral{
+    writing-mode: vertical-lr;
+    font-size: 0.5em;
+    height: 80%;
+    text-align: center;
+}
+
+.lateral#esquerda{
+    position: absolute;
+    transform: rotate(-180deg);
+}
+
+#primeiro-esquerda{
+    float:left;
+    padding-bottom: 10em;
+}
+
+#segundo-esquerda{
+    word-spacing: 7em;
+    letter-spacing: 2px;
+}
+
+.lateral#direita{
+    position: absolute;
+    right: 2.5rem;
+}
+
+#primeiro-direita{
+    word-spacing: 1em;
+    letter-spacing: 2px;
+    display: inline;
+}
+
+#segundo-direita{
+    float: right;
+}
+
+div.faixa.direita{
+    float: right;
+}

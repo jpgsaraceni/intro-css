@@ -1,0 +1,86 @@
+body{
+    width: 40em;
+    margin:auto;
+    font-family: 'Montserrat';
+    text-align: center;
+    background: linear-gradient(rgb(158, 134, 134), rgb(255, 255, 255));
+}
+
+div.folha{ 
+    background-color:white;
+    border-style: groove;
+    border-color: #B29155;
+    color:black;
+
+}
+
+span.vertical{
+    writing-mode: vertical-lr;
+    position: absolute;
+    bottom: 2em;
+    transform: translate(20em, 10.9em);
+}
+
+header{
+    padding: 1em;
+    background-color: #000000;
+    color:#B29155;
+}
+
+img{
+    width:9em;
+    display: inline;
+    border-radius: 50%;
+    border:#B29155 3px solid;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+    font-family: 'RocknRoll+One';
+    font-size: 400%;
+    vertical-align: middle;    
+}
+
+address{
+    margin:0;
+}
+
+p.perfil{
+    text-align: left;
+    padding: 2em;
+}
+
+h1, h2, h3{
+    color:#B29155;
+}
+
+ul{
+    text-align: left;
+}
+
+a:hover{
+    background-color: whitesmoke;
+}
+
+a:link, a:visited {
+    color: #B29155;
+    text-decoration: none;
+}
+
+div.social{
+    border:1px #B29155 solid;
+    padding-top:1em;
+    padding-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: lavender;
+    background-image: url("social.png");
+    background-size:contain;
+    background-blend-mode: soft-light;
+}
+
+footer{
+    margin-top: 2em;
+    font-size: 60%;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html />
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <title>Mod3 P4</title>
+</head>
+<body>
+    <h1>Xadrez</h1>
+    <nav class="botoes">
+            <h2>Dificuldade:</h2>
+            <button id="facil">Fácil</button>
+            <button id="media">Média</button>
+            <button id="dificil">Difícil</button>
+            <button id="kenji">Kenji</button>
+    </nav>
+    <div class="tabuleiro">   
+            <div class="quadro">
+            <div class="numero-linha" id="esquerda">
+                <span class="vazia"></span>
+                <span class="numero">8</span><span class="numero">7</span><span class="numero">6</span><span class="numero">5</span><span class="numero">4</span><span class="numero">3</span><span class="numero">2</span><span class="numero">1</span>
+                <span class="vazia"></span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">A</span>
+                <span class="branco"><img src="torre-preta.png" alt="torre preta"></span><span class="preto"><img src="peao-preto.png" alt="peão preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"><img src="peao-branco.png" alt="peão branco" /></span><span class="preto"><img src="torre-branca.png" alt="torre branca"/></span>
+                <span class="nome-coluna final">A</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">B</span>
+                <span class="preto"><img src="cavalo-preto.png" alt="cavalo preto"></span><span class="branco"><img src="peao-preto.png" alt="peão preto"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"><img src="peao-branco.png" alt="peão branco"></span><span class="branco"><img src="cavalo-branco.png" alt="cavalo branco"/></span>
+                <span class="nome-coluna final">B</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">C</span>
+                <span class="branco"><img src="bispo-preto.png" alt="bispo preto"/></span><span class="preto"><img src="peao-preto.png" alt="peão preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"><img src="peao-branco.png" alt="peão branco"></span><span class="preto"><img src="bispo-branco.png" alt="bispo branco"/></span>
+                <span class="nome-coluna final">C</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">D</span>
+                <span class="preto"><img src="dama-preta.png" alt="dama preta"/></span><span class="branco"><img src="peao-preto.png" alt="peão preto"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"><img src="peao-branco.png" alt="peão branco"></span><span class="branco"><img src="dama-branca.png" alt="dama branca"/></span>
+                <span class="nome-coluna final">D</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">E</span>
+                <span class="branco"><img src="rei-preto.png" alt="rei preto"/></span><span class="preto"><img src="peao-preto.png" alt="peão preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"><img src="peao-branco.png" alt="peão branco"></span><span class="preto"><img src="rei-branco.png" alt="rei branco"/></span>
+                <span class="nome-coluna final">E</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">F</span>
+                <span class="preto"><img src="bispo-preto.png" alt="bispo preto"/></span><span class="branco"><img src="peao-preto.png" alt="peão preto"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"><img src="peao-branco.png" alt="peão branco"></span><span class="branco"><img src="bispo-branco.png" alt="bispo branco"/></span>
+                <span class="nome-coluna final">F</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">G</span>
+                <span class="branco"><img src="cavalo-preto.png" alt="cavalo preto"></span><span class="preto"><img src="peao-preto.png" alt="peão preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"><img src="peao-branco.png" alt="peão branco"></span><span class="preto"><img src="cavalo-branco.png" alt="cavalo branco"/></span>
+                <span class="nome-coluna final">G</span>
+            </div>
+            <div class="coluna">
+                <span class="nome-coluna topo">H</span>
+                <span class="preto"><img src="torre-preta.png" alt="torre preta"></span><span class="branco"><img src="peao-preto.png" alt="peão preto"></span><span class="preto"></span><span class="branco"></span><span class="preto"></span><span class="branco"></span><span class="preto"><img src="peao-branco.png" alt="peão branco"></span><span class="branco"><img src="torre-branca.png" alt="torre branca"/></span>
+                <span class="nome-coluna final">H</span>
+            </div>
+            <div class="numero-linha" id="direita">
+                <span class="vazia"></span>
+                <span class="numero">8</span><span class="numero">7</span><span class="numero">6</span><span class="numero">5</span><span class="numero">4</span><span class="numero">3</span><span class="numero">2</span><span class="numero">1</span>
+                <span class="vazia"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

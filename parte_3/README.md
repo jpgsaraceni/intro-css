@@ -1,0 +1,2 @@
+# [não-concluído] Conceitos iniciais de CSS (continuação) - cópia de site
+Para fixação dos conceitos de CSS, foi feita uma cópia de um layout baseado em print de uma protótipo de página (sem acesso à página).
