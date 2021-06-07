@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #242564;
+    padding: 1em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border: green 10px solid;
+}
+
+h1 {
+    font-family: 'RocknRoll+One';
+    font-size: 500%; 
+    outline: 5px dashed green;
+}
+
+p.perfil, ul.experiencia, ul.habilidades{
+    text-align: left;
+}
+
+ul.contatos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.contatos li {
+    background: rgb(218, 204, 204);
+    padding: 0.3em; 
+    color:black;
+}
+
+a:hover{
+    background-color: whitesmoke;
+}
+
+ul.contatos a {
+    text-decoration: none 
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted 
+}
+
+footer{
+    margin-top: 2em;
+    font-size: 60%;
+}

@@ -1,0 +1,10 @@
+body{
+    color:rgb(175, 15, 47)
+}
+ul{
+    background:white;
+}
+li{
+    background: green;
+    font-size: 200%;
+}
