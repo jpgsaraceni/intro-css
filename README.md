@@ -1,2 +1,2 @@
 # intro-css
- Exercícios de introdução ao CSS do Alpha EdTech (16/02/21 a 19/02/21)
+ Exercícios de introdução ao CSS do Alpha EdTech (22/03/21 a 02/04/21)
